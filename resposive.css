@@ -1,0 +1,42 @@
+@media only screen and (max-width:600px) {
+    .main-page{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Input-Box{
+        width: 100%;
+        height: 70vh;
+    }
+    .Input-Box>div{
+        display: flex;
+    }
+    .cal-main{
+        display: flex;
+        gap: 30px;
+        height: 100vh;
+    }
+
+    .cal-main>.Input-Box{
+        height: 70vh;
+    }
+
+    .Input-Box-cc{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .IB-1, .IB-2, .IB-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .activity{
+        font-size: small;
+    }
+}
